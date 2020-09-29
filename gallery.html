@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <h1>Amit Tailor - Quality Service </h1>
+    </header>
+    <section class="banner">
+      <img src="img/banner2.png" alt="marioclub welcome banner">
+      <div class="welcome">
+        <h2>Learn about  <br><span>Amit</span></h2>
+      </div>
+    </section>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" >Reach Amit</a></li>
+        <li><a href="cv.html">Curriculum Vitae, resume</a>
+        </li>
+        <li><a href="gallery.html" class="join">Gallery</a></li>
+        <li><a href="weather.html" >Weather</a></li>
+        
+      </ul>
+    </nav>
+
+    <div class="gallery-section">
+      <div class="inner-width">
+        
+        <div class="border"></div>
+        <div class="gallery">
+
+          <a href="img/1.jpg" class="image">
+            <img src="img/1.jpg" alt="">
+          </a>
+
+          <a href="img/2.jpg" class="image">
+            <img src="img/2.jpg" alt="">
+          </a>
+
+          <a href="img/3.jpg" class="image">
+            <img src="img/3.jpg" alt="">
+          </a>
+
+          <a href="img/4.jpg" class="image">
+            <img src="img/4.jpg" alt="">
+          </a>
+
+          <a href="img/4.png" class="image">
+            <img src="img/4.png" alt="">
+          </a>
+
+          <a href="img/5.jpeg" class="image">
+            <img src="img/5.jpeg" alt="">
+          </a>
+
+          <a href="img/6.jpg" class="image">
+            <img src="img/6.jpg" alt="">
+          </a>
+
+          <a href="img/7.jpg" class="image">
+            <img src="img/7.jpg" alt="">
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+  <script>
+    $(".gallery").magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery:{
+        enabled: true
+      }
+    });
+  </script>
+
+  </body>
+</html>
